@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Notepad",
+  "version": "1.0",
+  "description": "Adds a browser action icon to the toolbar. Click the button to open a 4-pad clipboard. User can choose what to write and save in each pad, and also delete its content. A 'clear all' button is also available",
+  "homepage_url": "https://github.com/bondyr135/redesigned-giggle.git",
+  "icons": {
+    "48": "icons/notepad.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icons/notepad.png",
+    "default_title": "Notepad",
+    "default_popup": "popup/clipboard.html"
+  },
+  "page_action": {
+    "default_icon": {
+      "48": "icons/notepad.png"
+    },
+    "default_popup": "popup/clipboard.html"
+  }
+}
+
+
+
