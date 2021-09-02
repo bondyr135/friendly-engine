@@ -24,3 +24,12 @@ Note that:
 - creating a popup
 - manage changing text in multiple elements
 - reading\ writing from\ into browser's storage
+
+## How to see it
+
+- Download the folder from GitHub, extract files
+- Open Mozilla FireFox browser. Write 'about:debugging' in URL line
+- On the left, click 'this FireFox'
+- Click 'Load Temporary Add-ons...'
+- Navigate to the folder holding the files, chose the 'manifest.js' file, hit enter
+- A clipboard icon will apear on toolbar, for your use
